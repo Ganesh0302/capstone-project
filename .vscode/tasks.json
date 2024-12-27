@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start frontend server",
+            "command": "cd angular-frontend && npm run start",
+            "type": "shell"
+        },
+        {
+            "label": "Start backend server",
+            "command": "cd dotNetApi/EduLink && dotnet watch run --console",
+            "type": "shell"
+        },
+        {
+            "label": "Submit App",
+            "command": "./resolv.sh",
+            "type": "shell"
+        }
+    ]
+}

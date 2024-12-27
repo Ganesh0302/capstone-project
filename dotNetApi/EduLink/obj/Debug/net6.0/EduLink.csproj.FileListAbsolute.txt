@@ -1,0 +1,135 @@
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/appsettings.Development.json
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/appsettings.json
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/EduLink.exe
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/EduLink.deps.json
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/EduLink.runtimeconfig.json
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/EduLink.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/EduLink.pdb
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Humanizer.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.OpenApi.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/System.Drawing.Common.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/System.Runtime.Caching.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/System.Security.Permissions.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/System.Windows.Extensions.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/EduLink.csproj.AssemblyReference.cache
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/EduLink.GeneratedMSBuildEditorConfig.editorconfig
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/EduLink.AssemblyInfoInputs.cache
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/EduLink.AssemblyInfo.cs
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/EduLink.csproj.CoreCompileInputs.cache
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/EduLink.MvcApplicationPartsAssemblyInfo.cs
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/EduLink.MvcApplicationPartsAssemblyInfo.cache
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/staticwebassets.build.json
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/staticwebassets.development.json
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/staticwebassets/msbuild.EduLink.Microsoft.AspNetCore.StaticWebAssets.props
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/staticwebassets/msbuild.build.EduLink.props
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.EduLink.props
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.EduLink.props
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/staticwebassets.pack.json
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/scopedcss/bundle/EduLink.styles.css
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/EduLink.csproj.CopyComplete
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/EduLink.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/refint/EduLink.dll
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/EduLink.pdb
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/EduLink.genruntimeconfig.cache
+D:/Projects 2022/UpworkAbishakProjects/10 .Net Capstone Projects/EduLink/EduLink/EduLink/obj/Debug/net6.0/ref/EduLink.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/appsettings.Development.json
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/appsettings.json
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/EduLink
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/EduLink.deps.json
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/EduLink.runtimeconfig.json
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/EduLink.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/EduLink.pdb
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Humanizer.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/System.Drawing.Common.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/System.Runtime.Caching.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/System.Security.Permissions.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/System.Windows.Extensions.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/EduLink.csproj.AssemblyReference.cache
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/EduLink.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/EduLink.AssemblyInfoInputs.cache
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/EduLink.AssemblyInfo.cs
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/EduLink.csproj.CoreCompileInputs.cache
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/EduLink.MvcApplicationPartsAssemblyInfo.cs
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/EduLink.MvcApplicationPartsAssemblyInfo.cache
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/staticwebassets.build.json
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/staticwebassets.development.json
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/scopedcss/bundle/EduLink.styles.css
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/EduLink.csproj.CopyComplete
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/EduLink.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/refint/EduLink.dll
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/EduLink.pdb
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/EduLink.genruntimeconfig.cache
+/home/ubuntu/capstone-dotnet-eduLink123/dotNetApi/EduLink/obj/Debug/net6.0/ref/EduLink.dll

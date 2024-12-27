@@ -1,0 +1,191 @@
+<div class="container mt-5">
+    <h2 class="mb-4">Course Management</h2>
+  
+    <!-- Form for adding/updating a course -->
+    <div class="container mt-5">
+       
+      
+        <!-- Reactive Form for adding/updating a course -->
+        <form [formGroup]="courseForm" (ngSubmit)="isEditing ? updateCourse() : addCourse()">
+          <!-- Course Title -->
+          <div class="form-group">
+            <label for="title">Course Title</label>
+            <input
+              id="title"
+              class="form-control"
+              formControlName="title"
+              placeholder="Enter course title"
+            />
+            <div *ngIf="courseForm.get('title')?.invalid && courseForm.get('title')?.touched" class="text-danger">
+              Title is required.
+            </div>
+          </div>
+      
+          <!-- Course Description -->
+          <div class="form-group">
+            <label for="description">Description</label>
+            <input
+              id="description"
+              class="form-control"
+              formControlName="description"
+              placeholder="Enter course description"
+            />
+            <div *ngIf="courseForm.get('description')?.invalid && courseForm.get('description')?.touched" class="text-danger">
+              Description is required.
+            </div>
+          </div>
+      
+          <!-- Instructor -->
+          <div class="form-group">
+            <label for="instructor">Instructor</label>
+            <input
+              id="instructor"
+              class="form-control"
+              formControlName="instructor"
+              placeholder="Enter instructor name"
+            />
+            <div *ngIf="courseForm.get('instructor')?.invalid && courseForm.get('instructor')?.touched" class="text-danger">
+              Instructor is required.
+            </div>
+          </div>
+      
+          <!-- Start Date -->
+          <div class="form-group">
+            <label for="startDate">Start Date</label>
+            <input
+              id="startDate"
+              class="form-control"
+              type="date"
+              formControlName="startDate"
+            />
+            <div *ngIf="courseForm.get('startDate')?.invalid && courseForm.get('startDate')?.touched" class="text-danger">
+              Start date is required.
+            </div>
+          </div>
+      
+          <!-- End Date -->
+          <div class="form-group">
+            <label for="endDate">End Date</label>
+            <input
+              id="endDate"
+              class="form-control"
+              type="date"
+              formControlName="endDate"
+            />
+            <div *ngIf="courseForm.get('endDate')?.invalid && courseForm.get('endDate')?.touched" class="text-danger">
+              End date is required.
+            </div>
+          </div>
+      
+          <!-- Total Modules -->
+          <div class="form-group">
+            <label for="totalModules">Total Modules</label>
+            <input
+              id="totalModules"
+              class="form-control"
+              type="number"
+              formControlName="totalModules"
+              placeholder="Enter total modules"
+            />
+            <div *ngIf="courseForm.get('totalModules')?.invalid && courseForm.get('totalModules')?.touched" class="text-danger">
+              Total modules are required.
+            </div>
+          </div>
+      
+          <!-- Submit and Reset Buttons -->
+          <button type="submit" class="btn btn-primary" [disabled]="courseForm.invalid">
+            {{ isEditing ? 'Update Course' : 'Add Course' }}
+          </button>
+          <button type="button" class="btn btn-secondary mx-2 my-2" (click)="resetForm()">Reset</button>
+        </form>
+      
+        <!-- List of Courses -->
+        <table class="table table-bordered mt-5">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Instructor</th>
+              <th>Start Date</th>
+              <th>End Date</th>
+              <th>Total Modules</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let course of courses">
+              <td>{{ course.id }}</td>
+              <td>{{ course.title }}</td>
+              <td>{{ course.description }}</td>
+              <td>{{ course.instructor }}</td>
+              <td>{{ course.startDate | date }}</td>
+              <td>{{ course.endDate | date }}</td>
+              <td>{{ course.totalModules }}</td>
+              <td>
+                <button class="btn btn-warning mx-2" (click)="editCourse(course)">Edit</button>
+                <button class="btn btn-danger mx-2" (click)="deleteCourse(course.id)">Delete</button>
+                <button class="btn btn-primary" (click)="viewCourseAnalytics(course.id)">Analytics</button>
+                <button class="btn btn-success mx-2" (click)="loadCourseEngagement(course.id)">Engagement</button>
+                
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div *ngIf="courseProgress.length">
+        <h3>Course Analytics</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Student ID</th>
+              <th>Course ID</th>
+              <th>Completed Modules</th>
+              <th>Total Modules</th>
+              <th>Last Active Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let progress of courseProgress">
+              <td>{{ progress.id }}</td>
+              <td>{{ progress.studentId }}</td>
+              <td>{{ progress.courseId }}</td>
+              <td>{{ progress.completedModules }}</td>
+              <td>{{ progress.totalModules }}</td>
+              <td>{{ progress.lastActiveDate | date: 'short' }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+  
+      
+ 
+        <h2>Course Engagement</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Course ID</th>
+              <th>Active Students</th>
+              <th>Total Posts</th>
+              <th>Total Replies</th>
+              <th>Last Updated</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{ courseEngagement.id }}</td>
+              <td>{{ courseEngagement.courseId }}</td>
+              <td>{{ courseEngagement.activeStudents }}</td>
+              <td>{{ courseEngagement.totalPosts }}</td>
+              <td>{{ courseEngagement.totalReplies }}</td>
+              <td>{{ courseEngagement.lastUpdated | date: 'short' }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+  

@@ -1,0 +1,47 @@
+<div class="container mt-5">
+  
+    <div *ngIf="successAlertVisible" class="alert alert-success alert-dismissible fade show" role="alert">
+        Submission successful!
+     
+      </div>
+    <form [formGroup]="submissionForm" (ngSubmit)="submit()" *ngIf="assessmentId">
+        <h2>Submit Assignment</h2>
+      <div class="form-group">
+        <label for="content">Submission Content</label>
+        <textarea id="content" class="form-control" formControlName="content" placeholder="Enter your submission content"></textarea>
+        <div *ngIf="submissionForm.get('content')?.invalid && submissionForm.get('content')?.touched" class="text-danger">
+          Content is required.
+        </div>
+      </div>
+  
+      <button type="submit" class="btn btn-primary mt-4" [disabled]="submissionForm.invalid">Submit</button>
+    </form>
+  
+    <h3 class="mt-5">Submissions</h3>
+    <table class="table table-bordered mt-5">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Type</th>
+            <th>Course</th>
+            <th>Due Date</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let assessment of assessments">
+            <td>{{ assessment.title }}</td>
+            <td>{{ assessment.description }}</td>
+            <td>{{ assessment.type }}</td>
+            <td>{{ assessment.course?.title }}</td>
+            <td>{{ assessment.dueDate | date }}</td>
+            <td>
+              <button class="btn btn-warning" (click)="submitAssessment(assessment)">Submit</button>
+         
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  

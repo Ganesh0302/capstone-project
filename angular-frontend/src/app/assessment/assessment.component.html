@@ -1,0 +1,114 @@
+<div class="container mt-5">
+    <h2>Assessment Management</h2>
+  
+    <form [formGroup]="assessmentForm" (ngSubmit)="isEditing ? updateAssessment() : addAssessment()">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input id="title" class="form-control" formControlName="title" placeholder="Enter assessment title" />
+        <div *ngIf="assessmentForm.get('title')?.invalid && assessmentForm.get('title')?.touched" class="text-danger">
+          Title is required.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="description">Description</label>
+        <input id="description" class="form-control" formControlName="description" placeholder="Enter description" />
+        <div *ngIf="assessmentForm.get('description')?.invalid && assessmentForm.get('description')?.touched" class="text-danger">
+          Description is required.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="type">Type</label>
+        <select id="type" class="form-control" formControlName="type">
+          <option value="Quiz">Quiz</option>
+          <option value="Assignment">Assignment</option>
+          <option value="Exam">Exam</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <label for="courseId">Course</label>
+        <select id="courseId" class="form-control" formControlName="courseId">
+          <option *ngFor="let course of courses" [value]="course.id">{{ course.title }}</option>
+        </select>
+        <div *ngIf="assessmentForm.get('courseId')?.invalid && assessmentForm.get('courseId')?.touched" class="text-danger">
+          Please select a course.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="dueDate">Due Date</label>
+        <input id="dueDate" class="form-control" type="date" formControlName="dueDate" />
+        <div *ngIf="assessmentForm.get('dueDate')?.invalid && assessmentForm.get('dueDate')?.touched" class="text-danger">
+          Please select a due date.
+        </div>
+      </div>
+  
+      <button type="submit" class="btn btn-primary mt-2" [disabled]="assessmentForm.invalid">
+        {{ isEditing ? 'Update Assessment' : 'Add Assessment' }}
+      </button>
+      <button type="button" class="btn btn-secondary mx-2 mt-2" (click)="resetForm()">Reset</button>
+    </form>
+  
+    <table class="table table-bordered mt-5">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Type</th>
+          <th>Course</th>
+          <th>Due Date</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let assessment of assessments">
+          <td>{{ assessment.title }}</td>
+          <td>{{ assessment.description }}</td>
+          <td>{{ assessment.type }}</td>
+          <td>{{ assessment.course?.title }}</td>
+          <td>{{ assessment.dueDate | date }}</td>
+          <td>
+            <button class="btn btn-warning" (click)="editAssessment(assessment)">Edit</button>
+            <button class="btn btn-danger mx-2" (click)="deleteAssessment(assessment.id)">Delete</button>
+            <button class="btn btn-info" (click)="viewSubmissions(assessment.id)">View Submissions</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <!-- Submissions Section -->
+    <div *ngIf="submissions.length > 0" class="mt-5">
+      <h3>Submissions</h3>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Student</th>
+            <th>Submission Date</th>
+            <th>Grade</th>
+            <th>Feedback</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let submission of submissions">
+            <td>{{ submission.studentId }}</td>
+            <td>{{ submission.submittedAt | date }}</td>
+            <td>
+              <input type="number" [(ngModel)]="submission.grade" class="form-control" placeholder="Enter grade" />
+            </td>
+            <td>
+              <input type="text" [(ngModel)]="submission.feedback" class="form-control" placeholder="Enter feedback" />
+            </td>
+            <td>
+              <button class="btn btn-success" (click)="gradeSubmission(submission.submissionId, submission.grade, submission.feedback)">
+                Submit Grade
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

@@ -1,0 +1,63 @@
+<div class="container mt-5">
+    <h2>Content Management</h2>
+  
+    <form [formGroup]="contentForm" (ngSubmit)="isEditing ? updateContent() : addContent()">
+      <div class="form-group">
+        <label for="title">Content Title</label>
+        <input id="title" class="form-control" formControlName="title" placeholder="Enter content title" />
+        <div *ngIf="contentForm.get('title')?.invalid && contentForm.get('title')?.touched" class="text-danger">
+          Title is required.
+        </div>
+      </div>
+  
+      <div class="form-group mt-2">
+        <label for="description">Description</label>
+        <input id="description" class="form-control" formControlName="description" placeholder="Enter content description" />
+        <div *ngIf="contentForm.get('description')?.invalid && contentForm.get('description')?.touched" class="text-danger">
+          Description is required.
+        </div>
+      </div>
+  
+      <div class="form-group mt-2">
+        <label for="courseId">Course</label>
+        <select id="courseId" class="form-control" formControlName="courseId">
+        <option value="null">Select Course</option>
+          <option *ngFor="let course of courses" [value]="course.id">{{ course.title }}</option>
+        </select>
+        <div *ngIf="contentForm.get('courseId')?.invalid && contentForm.get('courseId')?.touched" class="text-danger">
+          Please select a course.
+        </div>
+      </div>
+  
+      <button type="submit" class="btn btn-primary mx-2 mt-4" [disabled]="contentForm.invalid">
+        {{ isEditing ? 'Update Content' : 'Add Content' }}
+      </button>
+      <button type="button" class="btn btn-secondary mt-4" (click)="resetForm()">Reset</button>
+    </form>
+  
+    <!-- Display list of content items -->
+    <table class="table table-bordered mt-5">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Course</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let content of contents">
+          <td>{{ content.id }}</td>
+          <td>{{ content.title }}</td>
+          <td>{{ content.description }}</td>
+          <td>{{ content.course?.title }}</td>
+          <td>
+            <button class="btn btn-warning mx-2" (click)="editContent(content)">Edit</button>
+            <button class="btn btn-danger" (click)="deleteContent(content.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

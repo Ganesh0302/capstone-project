@@ -1,0 +1,48 @@
+<testsuites>
+  <testsuite name="EduLinkTest.dll" tests="34" skipped="0" failures="0" errors="0" time="0.24443880000000004" timestamp="2024-11-08T17:28:13" hostname="ip-172-31-17-72" id="0" package="EduLinkTest.dll">
+    <properties />
+    <testcase classname="UnknownNamespace.UnknownType" name="AccountControllerTests.UsersByRole_Authorized_ReturnsOkResult" time="0.0795507" />
+    <testcase classname="EduLink.Tests.Controllers.AssessmentControllerTests" name="GetAssessmentById_ReturnsOkResult_WithAssessment" time="0.0752115" />
+    <testcase classname="EduLink.Tests.Controllers.AssessmentControllerTests" name="UpdateAssessment_ReturnsNoContent_WhenSuccessful" time="0.0096684" />
+    <testcase classname="EduLink.Tests.Controllers.AssessmentControllerTests" name="GetAllAssessments_ReturnsOkResult_WithAssessments" time="0.0008964" />
+    <testcase classname="EduLink.Tests.Controllers.AssessmentControllerTests" name="GetSubmissionsForAssessment_ReturnsOkResult_WithSubmissions" time="0.0015532" />
+    <testcase classname="EduLink.Tests.Controllers.AssessmentControllerTests" name="UpdateAssessment_ReturnsBadRequest_WhenIdsDoNotMatch" time="0.0001618" />
+    <testcase classname="EduLink.Tests.Controllers.AssessmentControllerTests" name="AddAssessment_ReturnsCreatedAtAction_WithAssessment" time="0.0023922" />
+    <testcase classname="EduLink.Tests.StudentsControllerTests" name="GetAllAssessments_ReturnsOkResult_WithListOfAssessments" time="0.0039274" />
+    <testcase classname="EduLink.Tests.Controllers.AssessmentControllerTests" name="GradeSubmission_ReturnsNoContent_WhenSuccessful" time="0.0024099" />
+    <testcase classname="EduLink.Tests.Controllers.AssessmentControllerTests" name="DeleteAssessment_ReturnsNoContent_WhenSuccessful" time="0.0010749" />
+    <testcase classname="EduLink.Tests.CourseControllerTests" name="DeleteCourse_ReturnsNotFound_WhenCourseDoesNotExist" time="0.0033780" />
+    <testcase classname="EduLink.Tests.CourseControllerTests" name="UpdateCourse_ReturnsNoContent_WhenCourseIsUpdated" time="0.0019629" />
+    <testcase classname="EduLink.Tests.CourseControllerTests" name="UpdateCourse_ReturnsBadRequest_WhenIdMismatch" time="0.0001448" />
+    <testcase classname="EduLink.Tests.CourseControllerTests" name="AddCourse_ReturnsCreatedAtAction_WhenCourseIsAdded" time="0.0012625" />
+    <testcase classname="EduLink.Tests.CourseControllerTests" name="GetAllCourses_ReturnsOkResult_WithCourses" time="0.0009495" />
+    <testcase classname="EduLink.Tests.CourseControllerTests" name="DeleteCourse_ReturnsNoContent_WhenCourseIsDeleted" time="0.0016536" />
+    <testcase classname="EduLink.Tests.Controllers.AnalyticsControllerTests" name="GetCourseFeedback_ReturnsOkResult_WithFeedback" time="0.0030577" />
+    <testcase classname="EduLink.Tests.Controllers.AnalyticsControllerTests" name="GetEngagementMetrics_ReturnsOkResult_WithEngagementMetrics" time="0.0011333" />
+    <testcase classname="EduLink.Tests.StudentsControllerTests" name="AddSubmission_ValidSubmission_ReturnsOkResult" time="0.0170680" />
+    <testcase classname="EduLink.Tests.Controllers.AnalyticsControllerTests" name="GetCourseProgress_ReturnsOkResult_WithStudentProgress" time="0.0073572" />
+    <testcase classname="EduLink.Tests.ContentControllerTests" name="UpdateContent_ReturnsBadRequest_WhenIdsDoNotMatch" time="0.0025669" />
+    <testcase classname="EduLinkTetst.ForumControllerTests" name="AddPost_ReturnsOk_WhenPostIsAddedSuccessfully" time="0.0043826" />
+    <testcase classname="EduLink.Tests.ContentControllerTests" name="DeleteContent_ReturnsNoContent_WhenContentIsDeleted" time="0.0014382" />
+    <testcase classname="EduLink.Tests.ContentControllerTests" name="GetAllContents_ReturnsOkResult_WithContents" time="0.0011092" />
+    <testcase classname="EduLink.Tests.ContentControllerTests" name="GetContentById_ReturnsOkResult_WithContent" time="0.0012643" />
+    <testcase classname="EduLink.Tests.ContentControllerTests" name="UpdateContent_ReturnsNoContent_WhenContentIsUpdated" time="0.0004338" />
+    <testcase classname="EduLink.Tests.ContentControllerTests" name="AddContent_ReturnsCreatedAtAction_WhenContentIsAdded" time="0.0005744" />
+    <testcase classname="EduLinkTetst.ForumControllerTests" name="AddPost_ReturnsBadRequest_WhenSaveFails" time="0.0102483" />
+    <testcase classname="EduLinkTetst.ForumControllerTests" name="GetAllPosts_ReturnsOkResult_WithEmptyList" time="0.0015338" />
+    <testcase classname="EduLinkTetst.ForumControllerTests" name="AddReply_ReturnsOk_WhenReplyIsAddedSuccessfully" time="0.0014319" />
+    <testcase classname="EduLinkTetst.ForumControllerTests" name="AddFeedback_ReturnsOk_WhenFeedbackIsAddedSuccessfully" time="0.0013701" />
+    <testcase classname="EduLinkTetst.ForumControllerTests" name="GetPostById_ReturnsOkResult_WithPost" time="0.0014252" />
+    <testcase classname="EduLinkTetst.ForumControllerTests" name="GetAllPosts_ReturnsOkResult_WithPosts" time="0.0010388" />
+    <testcase classname="EduLinkTetst.ForumControllerTests" name="GetPostById_ReturnsNotFound_WhenPostDoesNotExist" time="0.0008074" />
+    <system-out>
+Test Framework Informational Messages:
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 6.0.35)
+[xUnit.net 00:00:01.00]   Discovering: EduLinkTest
+[xUnit.net 00:00:01.04]   Discovered:  EduLinkTest
+[xUnit.net 00:00:01.04]   Starting:    EduLinkTest
+[xUnit.net 00:00:01.24]   Finished:    EduLinkTest
+</system-out>
+    <system-err></system-err>
+  </testsuite>
+</testsuites>
